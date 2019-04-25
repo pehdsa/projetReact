@@ -29,6 +29,6 @@ body {
     grid-auto-rows: var(--height-header) 1fr;
     grid-template-areas: 
         "Header Header"
-        "Aside Content";
+        "Content Content";
     height: 100vh;
 }

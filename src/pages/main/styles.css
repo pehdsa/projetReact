@@ -1,0 +1,54 @@
+.product-list {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.product-list article  {    
+    background-color: #7289da;
+    border: 1px solid #4665ce;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;     
+}
+
+.product-list article h3 {
+    font-size: 1.8em;
+}
+
+.product-list article p { 
+    margin-top: 10px;
+    color: rgba(255,255,255,0.8);
+    font-size: 1.4em;
+}
+
+.product-list article a { 
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+    border: 1px solid #FFF;
+    color: var(--color-default);
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 20px;
+    font-size: 1.4em;
+}
+
+.product-list article a:hover { 
+    background-color: rgba(255,255,255,0.4);
+}
+
+.product-list .actions { 
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.product-list .actions button {
+    background-color: #FFF;
+    color: #000;
+    border: 0;
+    border-radius: 4px;
+    font-size: 1.4em;
+    padding: 15px 20px;
+    cursor: pointer;
+}
