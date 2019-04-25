@@ -1,0 +1,4 @@
+#main-aside {
+    grid-area: Aside;
+    background-color: var(--background-aside);    
+}
